@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back2"
+    app:circularflow_radiusInDP="10dp"
+    tools:context=".onBoard3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="274dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="424dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/onboard3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="273dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="171dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/onboard3txt1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="261dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="42dp"
+        android:text="@string/onboard3txt2"
+        android:textAlignment="center"
+        android:textColor="@color/onboardtxt2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/btncl1"
+        android:text="@string/onboard3txt3"
+        android:textColor="@color/back"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="49dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/dot3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
