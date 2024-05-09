@@ -6,4 +6,6 @@
     <color name="background" />
     <color name="back">#FFFFFF</color>
     <color name="onboard1cl1">#2D2B2E</color>
+    <color name="back2">#FEFEFE</color>
+    <color name="onboardtxt2">#8C8A8C</color>
 </resources>

@@ -5,4 +5,8 @@
     <string name="onboard1txt2">Your personal diary to capture thoughts, memories, and moments.</string>
     <string name="onboard1txt3">Skip</string>
     <string name="onboard1txt4">Next</string>
+    <string name="onboard2txt1">Write anything, anytime.\n</string>
+    <string name="onboard2txt2">Write down your thoughts and feelings anytime, anywhere.</string>
+    <string name="onboard2txt3">Skip</string>
+    <string name="onboard2txt4">Next</string>
 </resources>
