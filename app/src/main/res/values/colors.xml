@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#ed5f1e</color>
+    <color name="background" />
+    <color name="back">#FFFFFF</color>
+    <color name="onboard1cl1">#2D2B2E</color>
 </resources>

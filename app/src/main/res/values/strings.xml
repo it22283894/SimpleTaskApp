@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SimpleNoteApp</string>
-    <string name="logoname">DiaryMate</string>
+    <string name="logoname">DiaryMate.</string>
+    <string name="onboard1txt1">Welcome to DiaryMate.</string>
+    <string name="onboard1txt2">Your personal diary to capture thoughts, memories, and moments.</string>
+    <string name="onboard1txt3">Skip</string>
+    <string name="onboard1txt4">Next</string>
 </resources>

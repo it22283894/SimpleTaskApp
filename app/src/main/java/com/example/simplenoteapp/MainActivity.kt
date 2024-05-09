@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         // Post a delayed action to navigate to the next activity
         Handler().postDelayed({
-            val intent = Intent(this, AddNote::class.java)
+            val intent = Intent(this, onBoard1::class.java)
             startActivity(intent)
             finish() // Optional: finish the current activity to prevent going back to it
         }, delayMillis)
