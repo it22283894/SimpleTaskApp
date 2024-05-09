@@ -9,4 +9,6 @@
     <color name="back2">#FEFEFE</color>
     <color name="onboardtxt2">#8C8A8C</color>
     <color name="btncl1">#77E5A4</color>
+    <color name="btnborder">#C6C6C6</color>
+
 </resources>

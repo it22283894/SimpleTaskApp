@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="673dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/logintxt1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="51dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="@string/logintxt2"
+        android:textColor="@color/onboardtxt2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="325dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="@string/logintxt3"
+        android:textColor="@color/btncl1"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="@string/logintxt4"
+        android:textColor="@color/btncl1"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/btncl1"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="@string/logintxt5"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="505dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
