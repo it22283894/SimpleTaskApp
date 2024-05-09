@@ -17,4 +17,18 @@
     <string name="logintxt3">Email</string>
     <string name="logintxt4">Password</string>
     <string name="logintxt5">Login</string>
+    <string name="login6">"Don’t have an account ? "</string>
+    <string name="logintxt7">Sign Up\n</string>
+    <string name="hintlogin1">Enter your email</string>
+    <string name="hintlogin2">Enter password</string>
+    <string name="signuptxt1">Create an account</string>
+    <string name="signupemail">Email</string>
+    <string name="signuptxt3">Phone</string>
+    <string name="signuphint1">Enter your email</string>
+    <string name="signuphint2">Enter your phone number</string>
+    <string name="signuptxt4">Password</string>
+    <string name="signuphint3">Enter password</string>
+    <string name="signuptxt5">Signup</string>
+    <string name="signuptxt6">Already have an account?</string>
+    <string name="signuptxt7">Login</string>
 </resources>
