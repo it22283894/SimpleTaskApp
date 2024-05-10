@@ -52,58 +52,21 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="38dp"
-        android:layout_marginBottom="49dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:hint="@string/signuphint1"
         android:inputType="textEmailAddress"
         android:paddingLeft="5dp"
         android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="295dp"
-        android:fontFamily="@font/manrope_semibold"
-        android:text="@string/signuptxt3"
-        android:textColor="@color/btncl1"
-        android:textSize="12dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
-
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="305dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="38dp"
-        android:background="@drawable/edit_text_border"
-        android:ems="10"
-        android:hint="@string/signuphint2"
-        android:inputType="phone"
-        android:paddingStart="5dp"
-        android:textSize="14dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
-        android:layout_marginTop="49dp"
         android:layout_marginEnd="281dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/manrope_semibold"
@@ -113,8 +76,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"

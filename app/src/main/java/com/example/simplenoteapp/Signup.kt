@@ -18,6 +18,13 @@ class Signup : AppCompatActivity() {
         binding=ActivitySignupBinding.inflate(layoutInflater)
         databaseHelper= DatabaseLS(this)
 
+        binding.button3.setOnClickListener {
+            val signupUsername=binding.editTextTextEmailAddress2.text.toString()
+            val signupPassword=binding.editTextTextPassword2.text.toString()
+
+            signupDatabase(signupUsername,signupPassword)
+        }
+
         val textView24=findViewById<TextView>(R.id.textView24)
 
         textView24.setOnClickListener {
@@ -25,9 +32,11 @@ class Signup : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
+
+
     }
-    private fun signupDatabase(username:String,password:String,phone:Int){
-        val insertRowId=databaseHelper.insertUser(username,password,phone)
+    private fun signupDatabase(username:String,password:String){
+        val insertRowId=databaseHelper.insertUser(username,password)
         if (insertRowId !=-1L){
             Toast.makeText(this,"Signup Successfull!!",Toast.LENGTH_SHORT).show()
             val intent=Intent(this,Login::class.java)
