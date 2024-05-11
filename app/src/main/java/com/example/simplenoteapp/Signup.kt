@@ -13,9 +13,10 @@ class Signup : AppCompatActivity() {
     private lateinit var databaseHelper: DatabaseLS
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
-
         binding=ActivitySignupBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
         databaseHelper= DatabaseLS(this)
 
         binding.button3.setOnClickListener {
