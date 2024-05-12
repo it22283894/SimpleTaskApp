@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">SimpleNoteApp</string>
-    <string name="logoname">DiaryMate.</string>
-    <string name="onboard1txt1">Welcome to DiaryMate.</string>
-    <string name="onboard1txt2">Your personal diary to capture thoughts, memories, and moments.</string>
+    <string name="logoname">TaskMate.</string>
+    <string name="onboard1txt1">Welcome to TaskMate.</string>
+    <string name="onboard1txt2">Your personal notebook to capture tasks and moments.</string>
     <string name="onboard1txt3">Skip</string>
     <string name="onboard1txt4">Next</string>
     <string name="onboard2txt1">Write anything, anytime.\n</string>
-    <string name="onboard2txt2">Write down your thoughts and feelings anytime, anywhere.</string>
+    <string name="onboard2txt2">Write down your tasks and events anytime, anywhere.</string>
     <string name="onboard2txt3">Skip</string>
     <string name="onboard2txt4">Next</string>
-    <string name="onboard3txt1">Protect Your Personal Moments.</string>
-    <string name="onboard3txt2">We understand the importance of privacy when it comes to your personal diary entries</string>
+    <string name="onboard3txt1">Protect Your Personal tasks.</string>
+    <string name="onboard3txt2">We understand the importance of privacy when it comes to your personal task management</string>
     <string name="onboard3txt3">Get Started</string>
     <string name="logintxt1">"Hi, Wecome Back! "</string>
     <string name="logintxt2">Hello again, you’ve been missed!</string>
@@ -31,5 +31,5 @@
     <string name="signuptxt5">Signup</string>
     <string name="signuptxt6">Already have an account?</string>
     <string name="signuptxt7">Login</string>
-    <string name="addtext1">Write Your Thoughts</string>
+    <string name="addtext1">Write Your tasks</string>
 </resources>

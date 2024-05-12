@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Diary Entries"
+        android:text="Task List"
         android:layout_marginStart="18dp"
         android:textColor="@color/btncl1"
         android:textSize="24dp"/>

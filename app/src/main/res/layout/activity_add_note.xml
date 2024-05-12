@@ -47,7 +47,7 @@
         android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter your thoughts"
+        android:hint="Enter your task"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="20sp"
